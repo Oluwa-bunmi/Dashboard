@@ -1,1 +1,1 @@
-# Dashboard
+A responsive dashboard with light and dark mode.
