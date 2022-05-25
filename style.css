@@ -1,0 +1,35 @@
+* {
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  outline: none;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+html {
+  font-size: 14px;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  width: 100%;
+  height: 100vh;
+  font-size: 0.88rem;
+  background-color: #f6f6f9;
+  overflow-x: hidden;
+}
+
+body a {
+  color: #363949;
+}
+
+body img {
+  width: 100%;
+}
+
+body h1 {
+  font-weight: 800;
+  font-size: 1.8rem;
+}
+/*# sourceMappingURL=style.css.map */
