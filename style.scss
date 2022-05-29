@@ -98,7 +98,10 @@ aside{
             }
         }
         a:last-child{
-            margin-top: 8rem;
+            // margin-top: 8rem;
+            position: absolute;
+            bottom: 2rem;
+            width: 100%;
         }
         a.active{
             background-color: $colorLight;

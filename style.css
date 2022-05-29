@@ -141,7 +141,9 @@ body aside .sidebar a:hover span {
 }
 
 body aside .sidebar a:last-child {
-  margin-top: 8rem;
+  position: absolute;
+  bottom: 2rem;
+  width: 100%;
 }
 
 body aside .sidebar a.active {
