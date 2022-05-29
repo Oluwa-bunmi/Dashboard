@@ -217,6 +217,43 @@ body main .insights > div span {
   border-radius: 50%;
 }
 
+body main .insights > div .middle {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+body main .insights > div .middle h3 {
+  margin: 1rem 0 0 0.6rem;
+  font-size: 1rem;
+}
+
+body main .insights > div .middle .right {
+  position: relative;
+  width: 92px;
+  height: 92px;
+  border-radius: 50%;
+}
+
+body main .insights > div .middle .right svg {
+  background-color: red;
+  width: 7rem;
+  height: 7rem;
+}
+
+body main .insights > div .middle .right svg circle {
+  fill: none;
+  stroke: #7380ec;
+  stroke-width: 14;
+  stroke-linecap: round;
+}
+
 body main .insights > div:hover {
   -webkit-box-shadow: none;
           box-shadow: none;

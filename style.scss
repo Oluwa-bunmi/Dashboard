@@ -159,6 +159,32 @@ body {
                 padding: 0.5rem;
                 border-radius: 50%;
             }
+            .middle{
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                h3{
+                    margin: 1rem 0 0 0.6rem;
+                    font-size: 1rem;
+                }
+                .right{
+                    position: relative;
+                    width: 92px;
+                    height: 92px;
+                    border-radius: 50%;
+                    svg{
+                        background-color: red;
+                        width: 7rem;
+                        height: 7rem;
+                        circle{
+                            fill: none;
+                            stroke: $colorPrimary;
+                            stroke-width: 14;
+                            stroke-linecap: round;
+                        }
+                    }
+                }
+            }
         }
         > div:hover{
             box-shadow: none;
