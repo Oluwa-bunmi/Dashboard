@@ -133,4 +133,21 @@ body aside .sidebar a span {
 body aside .sidebar a:last-child {
   margin-top: 8rem;
 }
+
+body aside .sidebar a.active {
+  background-color: rgba(132, 139, 200, 0.18);
+  color: #7380ec;
+  margin-left: 0;
+}
+
+body aside .sidebar a.active span {
+  color: #7380ec;
+}
+
+body aside .sidebar a.active::before {
+  content: '';
+  width: 6px;
+  height: 100%;
+  background-color: #7380ec;
+}
 /*# sourceMappingURL=style.css.map */

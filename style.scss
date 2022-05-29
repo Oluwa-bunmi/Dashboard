@@ -93,6 +93,21 @@ aside{
         a:last-child{
             margin-top: 8rem;
         }
+        a.active{
+            background-color: $colorLight;
+            color: $colorPrimary;
+            margin-left: 0;
+            span{
+                color: $colorPrimary;
+            }
+        }
+        a.active::before{
+            content: '';
+            width: 6px;
+            height: 100%;
+            background-color: $colorPrimary;
+        }
+       
     }
 }
 
