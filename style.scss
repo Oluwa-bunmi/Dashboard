@@ -151,6 +151,32 @@ body {
             border-radius: $cardBorderRadius;
             margin-top: 1rem;
             box-shadow: $shadow;
+            transition: all 300ms ease;
+            span{
+                font-size: 2rem;
+                color: #fff;
+               
+                padding: 0.5rem;
+                border-radius: 50%;
+            }
+        }
+        > div:hover{
+            box-shadow: none;
+        }
+        .sales{
+            span{
+                 background-color: $colorPrimary;
+            }
+        }
+        .expenses{
+            span{
+                 background-color: $coloDanger;
+            }
+        }
+        .income{
+            span{
+                 background-color: $colorSucccess;
+            }
         }
     }
   }

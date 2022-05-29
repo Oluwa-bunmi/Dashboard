@@ -206,5 +206,31 @@ body main .insights > div {
   margin-top: 1rem;
   -webkit-box-shadow: 0 2rem 3rem rgba(132, 139, 200, 0.18);
           box-shadow: 0 2rem 3rem rgba(132, 139, 200, 0.18);
+  -webkit-transition: all 300ms ease;
+  transition: all 300ms ease;
+}
+
+body main .insights > div span {
+  font-size: 2rem;
+  color: #fff;
+  padding: 0.5rem;
+  border-radius: 50%;
+}
+
+body main .insights > div:hover {
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
+body main .insights .sales span {
+  background-color: #7380ec;
+}
+
+body main .insights .expenses span {
+  background-color: #ff7782;
+}
+
+body main .insights .income span {
+  background-color: #41f1b6;
 }
 /*# sourceMappingURL=style.css.map */
