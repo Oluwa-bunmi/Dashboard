@@ -20,6 +20,15 @@ body {
   overflow-x: hidden;
 }
 
+body .container {
+  display: -ms-grid;
+  display: grid;
+  margin: 0 auto;
+  width: 96%;
+  -ms-grid-columns: 14rem auto 23rem;
+      grid-template-columns: 14rem auto 23rem;
+}
+
 body a {
   color: #363949;
 }
@@ -39,6 +48,7 @@ body h2 {
 
 body h3 {
   font-size: 0.87rem;
+  font-weight: 500;
 }
 
 body h4 {
@@ -51,5 +61,76 @@ body h5 {
 
 body small {
   font-size: 0.75rem;
+}
+
+body aside {
+  height: 100vh;
+}
+
+body aside .topbar {
+  background-color: #fff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 1.4rem;
+}
+
+body aside .topbar div:first-child {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 0.8rem;
+}
+
+body aside .topbar div:nth-child(2) {
+  display: none;
+}
+
+body aside .topbar img {
+  width: 2rem;
+  height: 2rem;
+}
+
+body aside .sidebar {
+  background-color: #fff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  height: 86vh;
+  position: relative;
+  top: 3rem;
+}
+
+body aside .sidebar a {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  color: #7d8da1;
+  gap: 1rem;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 3.7rem;
+  margin-left: 2rem;
+  -webkit-transition: all 300ms ease;
+  transition: all 300ms ease;
+}
+
+body aside .sidebar a span {
+  font-size: 1.6rem;
+}
+
+body aside .sidebar a:last-child {
+  margin-top: 8rem;
 }
 /*# sourceMappingURL=style.css.map */
