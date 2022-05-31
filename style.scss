@@ -173,7 +173,7 @@ body {
                     height: 92px;
                     border-radius: 50%;
                     svg{
-                        background-color: red;
+                       
                         width: 7rem;
                         height: 7rem;
                         circle{
@@ -181,6 +181,8 @@ body {
                             stroke: $colorPrimary;
                             stroke-width: 14;
                             stroke-linecap: round;
+                            transform: translate(5px, 5px);
+                            
                         }
                     }
                 }
@@ -193,15 +195,31 @@ body {
             span{
                  background-color: $colorPrimary;
             }
+            svg{
+
+                circle{
+                    stroke-dashoffset: -30;
+                    stroke-dasharray: 200;
+                }
+            }
         }
         .expenses{
             span{
                  background-color: $coloDanger;
             }
+            circle{
+                stroke-dashoffset: 20;
+                stroke-dasharray: 80;
+            }
         }
         .income{
             span{
                  background-color: $colorSucccess;
+            }
+            circle{
+                
+                 stroke-dashoffset: 35;
+                stroke-dasharray: 110;
             }
         }
     }

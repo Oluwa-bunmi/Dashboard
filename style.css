@@ -242,7 +242,6 @@ body main .insights > div .middle .right {
 }
 
 body main .insights > div .middle .right svg {
-  background-color: red;
   width: 7rem;
   height: 7rem;
 }
@@ -252,6 +251,8 @@ body main .insights > div .middle .right svg circle {
   stroke: #7380ec;
   stroke-width: 14;
   stroke-linecap: round;
+  -webkit-transform: translate(5px, 5px);
+          transform: translate(5px, 5px);
 }
 
 body main .insights > div:hover {
@@ -263,11 +264,26 @@ body main .insights .sales span {
   background-color: #7380ec;
 }
 
+body main .insights .sales svg circle {
+  stroke-dashoffset: -30;
+  stroke-dasharray: 200;
+}
+
 body main .insights .expenses span {
   background-color: #ff7782;
 }
 
+body main .insights .expenses circle {
+  stroke-dashoffset: 20;
+  stroke-dasharray: 80;
+}
+
 body main .insights .income span {
   background-color: #41f1b6;
+}
+
+body main .insights .income circle {
+  stroke-dashoffset: 35;
+  stroke-dasharray: 110;
 }
 /*# sourceMappingURL=style.css.map */
