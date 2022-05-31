@@ -66,11 +66,11 @@ body small {
 }
 
 body .warning {
-  color: #ffbb55;
+  color: #ffbb55 !important;
 }
 
 body .primary {
-  color: #7380ec;
+  color: #7380ec !important;
 }
 
 body .danger {
