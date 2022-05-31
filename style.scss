@@ -1,4 +1,6 @@
 @import "./variables";
+//reason for the mutetext class for the insights in the main section
+
 * {
   padding: 0;
   margin: 0;
@@ -197,6 +199,10 @@ body {
                     }
                 }
             }
+            small{
+                margin-top: 1.3rem;
+                display: block;
+            }
         }
         > div:hover{
             box-shadow: none;
@@ -231,6 +237,29 @@ body {
                  stroke-dashoffset: 35;
                 stroke-dasharray: 110;
             }
+        }
+    }
+    .orders{
+        margin-top: 2rem;
+        h2{
+            margin-bottom: 0.8rem;
+        }
+        table{
+            background-color: #fff;
+            width: 100%;
+            border-radius: $cardBorderRadius;
+            padding: $cardPadding;
+            text-align: center;
+            box-shadow: $shadow;
+            transition: all 300ms ease;
+            tbody{
+                td{
+                    height: 2.8rem;
+                }
+            }
+        }
+        table:hover{
+            box-shadow: none;
         }
     }
   }

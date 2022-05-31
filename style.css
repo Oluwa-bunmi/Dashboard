@@ -272,6 +272,11 @@ body main .insights > div .middle .right .percent {
           align-items: center;
 }
 
+body main .insights > div small {
+  margin-top: 1.3rem;
+  display: block;
+}
+
 body main .insights > div:hover {
   -webkit-box-shadow: none;
           box-shadow: none;
@@ -302,5 +307,34 @@ body main .insights .income span {
 body main .insights .income circle {
   stroke-dashoffset: 35;
   stroke-dasharray: 110;
+}
+
+body main .orders {
+  margin-top: 2rem;
+}
+
+body main .orders h2 {
+  margin-bottom: 0.8rem;
+}
+
+body main .orders table {
+  background-color: #fff;
+  width: 100%;
+  border-radius: 2rem;
+  padding: 1.8rem;
+  text-align: center;
+  -webkit-box-shadow: 0 2rem 3rem rgba(132, 139, 200, 0.18);
+          box-shadow: 0 2rem 3rem rgba(132, 139, 200, 0.18);
+  -webkit-transition: all 300ms ease;
+  transition: all 300ms ease;
+}
+
+body main .orders table tbody td {
+  height: 2.8rem;
+}
+
+body main .orders table:hover {
+  -webkit-box-shadow: none;
+          box-shadow: none;
 }
 /*# sourceMappingURL=style.css.map */
