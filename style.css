@@ -28,6 +28,7 @@ body .container {
   width: 96%;
   -ms-grid-columns: 14rem auto 23rem;
       grid-template-columns: 14rem auto 23rem;
+  gap: 1.8rem;
 }
 
 body a {
@@ -62,6 +63,41 @@ body h5 {
 
 body small {
   font-size: 0.75rem;
+}
+
+body .warning {
+  color: #ffbb55;
+}
+
+body .primary {
+  color: #7380ec;
+}
+
+body .danger {
+  color: #ff7782;
+}
+
+body .success {
+  color: #41f1b6;
+}
+
+body .profile {
+  width: 2.8rem;
+  height: 2.8rem;
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+body .mutedtext {
+  color: #7d8da1;
+}
+
+body p {
+  color: #677483;
+}
+
+body b {
+  color: #363949;
 }
 
 body aside {
@@ -329,12 +365,25 @@ body main .orders table {
   transition: all 300ms ease;
 }
 
-body main .orders table tbody td {
+body main .orders table td {
   height: 2.8rem;
+  border-bottom: 1px solid rgba(132, 139, 200, 0.18);
+  color: #677483;
+}
+
+body main .orders table tr:last-child td {
+  border: none;
 }
 
 body main .orders table:hover {
   -webkit-box-shadow: none;
           box-shadow: none;
+}
+
+body main .orders a {
+  display: block;
+  text-align: center;
+  margin: 1rem auto;
+  color: #7380ec;
 }
 /*# sourceMappingURL=style.css.map */

@@ -25,6 +25,7 @@ body {
     margin: 0 auto;
     width: 96%;
     grid-template-columns: 14rem auto 23rem;
+    gap: 1.8rem;
   }
   a {
     color: $colorDark;
@@ -52,6 +53,34 @@ body {
   small {
     font-size: 0.75rem;
   }
+  .warning {
+    color: $colorWarning;
+  }
+  .primary {
+    color: $colorPrimary;
+  }
+  .danger {
+    color: $coloDanger;
+  }
+  .success {
+    color: $colorSucccess;
+  }
+  .profile {
+    width: 2.8rem;
+    height: 2.8rem;
+    border-radius: 50%;
+    overflow: hidden;
+  }
+  .mutedtext {
+    color: $infoDark;
+  }
+  p {
+    color: $darkVariant;
+  }
+  b {
+    color: $colorDark;
+  }
+
   aside {
     height: 100vh;
     .topbar {
@@ -143,124 +172,132 @@ body {
         border: none;
       }
     }
-    .insights{
-        display: grid;
-        grid-template-columns: repeat(3, 1fr);
-        gap: 1.6rem;
-       > div{
-            background-color: #fff;
-            padding: $cardPadding;
-            border-radius: $cardBorderRadius;
-            margin-top: 1rem;
-            box-shadow: $shadow;
-            transition: all 300ms ease;
-            span{
-                font-size: 2rem;
-                color: #fff;
-               
-                padding: 0.5rem;
-                border-radius: 50%;
-            }
-            .middle{
-                display: flex;
-                align-items: center;
-                justify-content: space-between;
-                h3{
-                    margin: 1rem 0 0 0.6rem;
-                    font-size: 1rem;
-                }
-                .right{
-                    position: relative;
-                    width: 92px;
-                    height: 92px;
-                    border-radius: 50%;
-                    svg{
-                       
-                        width: 7rem;
-                        height: 7rem;
-                        circle{
-                            fill: none;
-                            stroke: $colorPrimary;
-                            stroke-width: 14;
-                            stroke-linecap: round;
-                            transform: translate(5px, 5px);
-                            
-                        }
-                    }
-                    .percent{
-                        position: absolute;
-                        top: 0;
-                        left: 0;
-                        width: 100%;
-                        height: 100%;
-                        display: flex;
-                        justify-content: center;
-                        align-items: center;
-                    }
-                }
-            }
-            small{
-                margin-top: 1.3rem;
-                display: block;
-            }
-        }
-        > div:hover{
-            box-shadow: none;
-        }
-        .sales{
-            span{
-                 background-color: $colorPrimary;
-            }
-            svg{
+    .insights {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 1.6rem;
+      > div {
+        background-color: #fff;
+        padding: $cardPadding;
+        border-radius: $cardBorderRadius;
+        margin-top: 1rem;
+        box-shadow: $shadow;
+        transition: all 300ms ease;
+        span {
+          font-size: 2rem;
+          color: #fff;
 
-                circle{
-                    stroke-dashoffset: -30;
-                    stroke-dasharray: 200;
-                }
-            }
+          padding: 0.5rem;
+          border-radius: 50%;
         }
-        .expenses{
-            span{
-                 background-color: $coloDanger;
+        .middle {
+          display: flex;
+          align-items: center;
+          justify-content: space-between;
+          h3 {
+            margin: 1rem 0 0 0.6rem;
+            font-size: 1rem;
+          }
+          .right {
+            position: relative;
+            width: 92px;
+            height: 92px;
+            border-radius: 50%;
+            svg {
+              width: 7rem;
+              height: 7rem;
+              circle {
+                fill: none;
+                stroke: $colorPrimary;
+                stroke-width: 14;
+                stroke-linecap: round;
+                transform: translate(5px, 5px);
+              }
             }
-            circle{
-                stroke-dashoffset: 20;
-                stroke-dasharray: 80;
+            .percent {
+              position: absolute;
+              top: 0;
+              left: 0;
+              width: 100%;
+              height: 100%;
+              display: flex;
+              justify-content: center;
+              align-items: center;
             }
+          }
         }
-        .income{
-            span{
-                 background-color: $colorSucccess;
-            }
-            circle{
-                
-                 stroke-dashoffset: 35;
-                stroke-dasharray: 110;
-            }
+        small {
+          margin-top: 1.3rem;
+          display: block;
         }
+      }
+      > div:hover {
+        box-shadow: none;
+      }
+      .sales {
+        span {
+          background-color: $colorPrimary;
+        }
+        svg {
+          circle {
+            stroke-dashoffset: -30;
+            stroke-dasharray: 200;
+          }
+        }
+      }
+      .expenses {
+        span {
+          background-color: $coloDanger;
+        }
+        circle {
+          stroke-dashoffset: 20;
+          stroke-dasharray: 80;
+        }
+      }
+      .income {
+        span {
+          background-color: $colorSucccess;
+        }
+        circle {
+          stroke-dashoffset: 35;
+          stroke-dasharray: 110;
+        }
+      }
     }
-    .orders{
-        margin-top: 2rem;
-        h2{
-            margin-bottom: 0.8rem;
+    .orders {
+      margin-top: 2rem;
+      h2 {
+        margin-bottom: 0.8rem;
+      }
+      table {
+        background-color: #fff;
+        width: 100%;
+        border-radius: $cardBorderRadius;
+        padding: $cardPadding;
+        text-align: center;
+        box-shadow: $shadow;
+        transition: all 300ms ease;
+
+        td {
+          height: 2.8rem;
+          border-bottom: 1px solid $colorLight;
+          color: $darkVariant;
         }
-        table{
-            background-color: #fff;
-            width: 100%;
-            border-radius: $cardBorderRadius;
-            padding: $cardPadding;
-            text-align: center;
-            box-shadow: $shadow;
-            transition: all 300ms ease;
-            tbody{
-                td{
-                    height: 2.8rem;
-                }
-            }
+        tr:last-child {
+          td {
+            border: none;
+          }
         }
-        table:hover{
-            box-shadow: none;
-        }
+      }
+      table:hover {
+        box-shadow: none;
+      }
+      a {
+        display: block;
+        text-align: center;
+        margin: 1rem auto;
+        color: $colorPrimary;
+      }
     }
   }
 }
