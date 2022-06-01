@@ -339,6 +339,22 @@ body {
               text-align: right;
           }
       }
+      .recentUpdates{
+          margin-top: 1rem;
+          h2{
+              margin-bottom: 0.8rem;
+          }
+          .notifications{
+              color: #fff;
+              padding: $cardPadding;
+              border-radius: $cardBorderRadius;
+              box-shadow: $shadow;
+              transition: all 300ms ease;
+          }
+          .notifications:hover{
+              box-shadow: none;
+          }
+      }
     //   .update{
         
 
