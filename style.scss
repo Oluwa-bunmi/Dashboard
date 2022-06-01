@@ -376,6 +376,21 @@ body {
             //   border-radius: 3rd;
             box-shadow: $shadow;
             transition: all 300ms ease;
+            .side{
+                display: flex;
+                justify-content: space-between;
+                align-items: start;
+                margin: 0;
+                width: 100%;
+            }
+            .icon{
+                color: #fff;
+                border-radius: 50%;
+                background-color: $colorPrimary;
+                padding: 0.6rem;
+                display: flex;
+
+            }
           }
           > div:hover{
               box-shadow: none;
