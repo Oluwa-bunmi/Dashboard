@@ -399,7 +399,6 @@ body .end .top {
       -ms-flex-pack: end;
           justify-content: end;
   gap: 2rem;
-  background-color: gray;
 }
 
 body .end .top button {
@@ -436,5 +435,19 @@ body .end .top .toggler span {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+}
+
+body .end .top .toggler .active {
+  background-color: #7380ec;
+  color: #fff;
+  border-radius: 0.4rem;
+}
+
+body .end .top .profile {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 2rem;
+  text-align: right;
 }
 /*# sourceMappingURL=style.css.map */

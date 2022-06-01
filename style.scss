@@ -1,6 +1,6 @@
 @import "./variables";
-//reason for the mutetext class for the insights in the main section
 
+// check if $borderradiusone is 0.4rem
 * {
   padding: 0;
   margin: 0;
@@ -306,7 +306,7 @@ body {
           display: flex;
           justify-content: end;
           gap: 2rem;
-          background-color: gray;
+         
           button{
               display: none;
           }
@@ -327,6 +327,16 @@ body {
                   align-items: center;
                   justify-content: center;
               }
+              .active{
+                  background-color: $colorPrimary;
+                  color: #fff;
+                  border-radius: 0.4rem;
+              }
+          }
+          .profile{
+              display: flex;
+              gap: 2rem;
+              text-align: right;
           }
       }
     //   .update{
