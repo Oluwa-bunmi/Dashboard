@@ -1,6 +1,5 @@
 @import "./variables";
-//Sales analytics borderradius not filled yet
-// check if $borderradiusone is 0.4rem
+
 * {
   padding: 0;
   margin: 0;
@@ -373,7 +372,7 @@ body {
               gap: 1rem;
               margin-bottom: 0.7rem;
               padding: 1.4rem $cardPadding;
-            //   border-radius: 3rd;
+              border-radius: 1.2rem;
             box-shadow: $shadow;
             transition: all 300ms ease;
             .side{

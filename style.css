@@ -502,6 +502,7 @@ body .end .salesAnalytics > div {
   gap: 1rem;
   margin-bottom: 0.7rem;
   padding: 1.4rem 1.8rem;
+  border-radius: 1.2rem;
   -webkit-box-shadow: 0 2rem 3rem rgba(132, 139, 200, 0.18);
           box-shadow: 0 2rem 3rem rgba(132, 139, 200, 0.18);
   -webkit-transition: all 300ms ease;
