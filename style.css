@@ -536,4 +536,37 @@ body .end .salesAnalytics > div:hover {
   -webkit-box-shadow: none;
           box-shadow: none;
 }
+
+body .end .salesAnalytics .offline .icon {
+  background-color: #ff7782;
+}
+
+body .end .salesAnalytics .customers .icon {
+  background-color: #41f1b6;
+}
+
+body .end .salesAnalytics .addproduct {
+  background-color: transparent;
+  border: 2px dashed #7380ec;
+  color: #7380ec;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+body .end .salesAnalytics .addproduct div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 0.6rem;
+}
 /*# sourceMappingURL=style.css.map */

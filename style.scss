@@ -395,6 +395,29 @@ body {
           > div:hover{
               box-shadow: none;
           }
+          .offline{
+              .icon{
+                  background-color: $colorDanger;
+              }
+          }
+          .customers{
+              .icon{
+                  background-color: $colorSucccess;
+              }
+          }
+          .addproduct{
+              background-color: transparent;
+              border: 2px dashed $colorPrimary;
+              color: $colorPrimary;
+              display: flex;
+              align-items: center;
+              justify-content: center;
+              div{
+                  display: flex;
+                  align-items: center;
+                  gap: 0.6rem;
+              }
+          }
       }
    
   }
