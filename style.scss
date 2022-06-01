@@ -345,11 +345,17 @@ body {
               margin-bottom: 0.8rem;
           }
           .notifications{
-              color: #fff;
+              background-color: #fff;
               padding: $cardPadding;
               border-radius: $cardBorderRadius;
               box-shadow: $shadow;
               transition: all 300ms ease;
+              .update{
+                  display: grid;
+                  grid-template-columns: 2.6rem auto;
+                  gap: 1rem;
+                  margin-bottom: 1rem;
+              }
           }
           .notifications:hover{
               box-shadow: none;
