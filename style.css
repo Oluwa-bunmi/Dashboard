@@ -482,4 +482,34 @@ body .end .recentUpdates .notifications:hover {
   -webkit-box-shadow: none;
           box-shadow: none;
 }
+
+body .end .salesAnalytics {
+  margin-top: 2rem;
+}
+
+body .end .salesAnalytics h2 {
+  margin-bottom: 0.8rem;
+}
+
+body .end .salesAnalytics > div {
+  background-color: #fff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 1rem;
+  margin-bottom: 0.7rem;
+  padding: 1.4rem 1.8rem;
+  -webkit-box-shadow: 0 2rem 3rem rgba(132, 139, 200, 0.18);
+          box-shadow: 0 2rem 3rem rgba(132, 139, 200, 0.18);
+  -webkit-transition: all 300ms ease;
+  transition: all 300ms ease;
+}
+
+body .end .salesAnalytics > div:hover {
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
 /*# sourceMappingURL=style.css.map */

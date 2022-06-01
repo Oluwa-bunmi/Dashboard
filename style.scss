@@ -361,7 +361,26 @@ body {
               box-shadow: none;
           }
       }
-      
+      .salesAnalytics{
+          margin-top: 2rem;
+          h2{
+              margin-bottom: 0.8rem;
+          }
+          > div{
+              background-color: #fff;
+              display: flex;
+              align-items: center;
+              gap: 1rem;
+              margin-bottom: 0.7rem;
+              padding: 1.4rem $cardPadding;
+            //   border-radius: 3rd;
+            box-shadow: $shadow;
+            transition: all 300ms ease;
+          }
+          > div:hover{
+              box-shadow: none;
+          }
+      }
    
   }
 
