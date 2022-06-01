@@ -387,12 +387,13 @@ body main .orders a {
   color: #7380ec;
 }
 
-body .end .update {
+body .end {
+  margin-top: 1.4rem;
+}
+
+body .end .top {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
 }
 /*# sourceMappingURL=style.css.map */
