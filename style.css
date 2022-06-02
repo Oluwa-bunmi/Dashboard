@@ -19,6 +19,10 @@ body {
   background-color: #f6f6f9;
   overflow-x: hidden;
   color: #363949;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
 }
 
 body .container {

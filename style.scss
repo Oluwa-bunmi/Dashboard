@@ -7,6 +7,7 @@
   outline: none;
   box-sizing: border-box;
   
+  
 }
 html {
   font-size: 14px;
@@ -19,6 +20,7 @@ body {
   background-color: $background;
   overflow-x: hidden;
   color: $colorDark;
+  user-select: none;
   .container {
     display: grid;
 
