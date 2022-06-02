@@ -196,7 +196,7 @@ body aside .topbar img {
 }
 
 body aside .sidebar {
-  background-color: #fff;
+  background-color: #202528;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -652,7 +652,7 @@ body .end .top .toggler span {
 
 body .end .top .toggler .active {
   background-color: #7380ec;
-  color: #fff;
+  color: #202528;
   border-radius: 0.4rem;
 }
 
@@ -679,7 +679,7 @@ body .end .recentUpdates h2 {
 }
 
 body .end .recentUpdates .notifications {
-  background-color: #fff;
+  background-color: #202528;
   padding: 1.8rem;
   border-radius: 2rem;
   -webkit-box-shadow: 0 2rem 3rem rgba(0, 0, 0, 0.4);
@@ -711,7 +711,7 @@ body .end .salesAnalytics h2 {
 }
 
 body .end .salesAnalytics > div {
-  background-color: #fff;
+  background-color: #202528;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;

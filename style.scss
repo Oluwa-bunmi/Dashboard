@@ -13,7 +13,7 @@ $colorDark:$colorDark;
 $darkVariant:$darkVariant;
 $colorLight:$colorLight;
 $shadow:$shadow;
-$white: #fff;
+$white: $white;
 
 }
 html {
@@ -146,7 +146,7 @@ body {
       }
     }
     .sidebar {
-      background-color: #fff;
+      background-color: $white;
       display: flex;
       flex-direction: column;
       height: 86vh;
@@ -479,7 +479,7 @@ body {
         }
         .active {
           background-color: $colorPrimary;
-          color: #fff;
+          color: $white;
           border-radius: 0.4rem;
         }
       }
@@ -500,7 +500,7 @@ body {
         margin-bottom: 0.8rem;
       }
       .notifications {
-        background-color: #fff;
+        background-color: $white;
         padding: $cardPadding;
         border-radius: $cardBorderRadius;
         box-shadow: $shadow;
@@ -522,7 +522,7 @@ body {
         margin-bottom: 0.8rem;
       }
       > div {
-        background-color: #fff;
+        background-color: $white;
         display: flex;
         align-items: center;
         gap: 1rem;
