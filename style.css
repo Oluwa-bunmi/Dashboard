@@ -152,14 +152,33 @@ body aside .topbar div:first-child {
   gap: 0.8rem;
 }
 
+@media screen and (max-width: 768px) {
+  body aside .topbar div:first-child {
+    margin-left: 1rem;
+  }
+}
+
 @media screen and (max-width: 1200px) {
   body aside .topbar div:first-child h2 {
     display: none;
   }
 }
 
+@media screen and (max-width: 768px) {
+  body aside .topbar div:first-child h2 {
+    display: inline;
+  }
+}
+
 body aside .topbar div:nth-child(2) {
   display: none;
+}
+
+@media screen and (max-width: 768px) {
+  body aside .topbar div:nth-child(2) {
+    display: inline;
+    cursor: pointer;
+  }
 }
 
 body aside .topbar img {
@@ -210,6 +229,13 @@ body aside .sidebar a {
   }
 }
 
+@media screen and (max-width: 768px) {
+  body aside .sidebar a {
+    width: 100%;
+    height: 3.4rem;
+  }
+}
+
 body aside .sidebar a span {
   font-size: 1.6rem;
   -webkit-transition: all 300ms ease;
@@ -219,6 +245,12 @@ body aside .sidebar a span {
 @media screen and (max-width: 1200px) {
   body aside .sidebar a h3 {
     display: none;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  body aside .sidebar a h3 {
+    display: inline;
   }
 }
 
@@ -240,6 +272,13 @@ body aside .sidebar a:last-child {
   body aside .sidebar a:last-child {
     position: relative;
     margin-top: 1.8rem;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  body aside .sidebar a:last-child {
+    position: absolute;
+    bottom: 5rem;
   }
 }
 

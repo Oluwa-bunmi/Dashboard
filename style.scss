@@ -110,15 +110,25 @@ width: 100%;
       div:first-child {
         display: flex;
         gap: 0.8rem;
+          @media screen and (max-width:768px){
+              margin-left: 1rem;
+          }
         h2{
             @media screen and (max-width:1200px) {
                 display: none;
             }
+              @media screen and (max-width:768px){
+                  display: inline;
+              }
             
         }
       }
       div:nth-child(2) {
         display: none;
+          @media screen and (max-width:768px){
+              display: inline;
+              cursor: pointer;
+          }
       }
       img {
         width: 2rem;
@@ -150,6 +160,10 @@ width: 100%;
          @media screen and (max-width:1200px){
              width: 5.6rem;
          }
+           @media screen and (max-width:768px){
+               width: 100%;
+               height: 3.4rem;
+           }
         span {
           font-size: 1.6rem;
           transition: all 300ms ease;
@@ -158,6 +172,9 @@ width: 100%;
             @media screen and (max-width:1200px){
                 display: none;
             } 
+              @media screen and (max-width:768px){
+                  display: inline;
+              }
         }
       }
       a:hover {
@@ -175,6 +192,10 @@ width: 100%;
              position: relative;
              margin-top: 1.8rem;
          }
+           @media screen and (max-width:768px){
+               position: absolute;
+               bottom: 5rem;
+           }
       }
       a.active {
         background-color: $colorLight;
