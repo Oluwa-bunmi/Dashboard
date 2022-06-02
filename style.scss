@@ -111,6 +111,9 @@ grid-template-columns: 1fr;
       justify-content: space-between;
       align-items: center;
       margin-top: 1.4rem;
+       @media screen and (max-width:768px){
+           margin-top: 0;
+       }
       div:first-child {
         display: flex;
         gap: 0.8rem;

@@ -152,6 +152,12 @@ body aside .topbar {
   margin-top: 1.4rem;
 }
 
+@media screen and (max-width: 768px) {
+  body aside .topbar {
+    margin-top: 0;
+  }
+}
+
 body aside .topbar div:first-child {
   display: -webkit-box;
   display: -ms-flexbox;
