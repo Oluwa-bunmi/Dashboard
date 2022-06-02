@@ -46,6 +46,8 @@ body .container {
 @media screen and (max-width: 768px) {
   body .container {
     width: 100%;
+    -ms-grid-columns: 1fr;
+        grid-template-columns: 1fr;
   }
 }
 
@@ -579,6 +581,7 @@ body .end .top {
     z-index: 2;
     -webkit-box-shadow: 0 1rem 1rem rgba(132, 139, 200, 0.18);
             box-shadow: 0 1rem 1rem rgba(132, 139, 200, 0.18);
+    background-color: #fff;
   }
 }
 
