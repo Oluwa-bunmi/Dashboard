@@ -6,6 +6,7 @@
   text-decoration: none;
   outline: none;
   box-sizing: border-box;
+  
 }
 html {
   font-size: 14px;
@@ -116,6 +117,12 @@ body {
       height: 86vh;
       position: relative;
       top: 3rem;
+       @media screen and (max-width:1200px){
+           background-color: transparent;
+           height: auto;
+          
+       }
+      
       a {
         display: flex;
         color: $infoDark;
@@ -317,21 +324,22 @@ body {
           border-bottom: 1px solid $colorLight;
           color: $darkVariant;
         }
-//       tbody{
-//             td:last-child, :first-child{
-//              @media screen and (max-width:1200px){
-//                  display: none;
-//              }
-//         }
-//          thead{
-//             th:last-child, :first-child{
+      tbody{
+            td:first-child, :last-child{
+             @media screen and (max-width:1200px){
+                 display: none;
+             }
+        }
+         }
+         thead{
+            th:first-child{
 
-//                 @media screen and (max-width:1200px){
-//    display: none;
-//                 }
-//             }
-//         }
-//       }
+                @media screen and (max-width:1200px){
+   display: none;
+                }
+            }
+        }
+     
         tr:last-child {
           td {
             border: none;

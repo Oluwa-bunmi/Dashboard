@@ -161,6 +161,13 @@ body aside .sidebar {
   top: 3rem;
 }
 
+@media screen and (max-width: 1200px) {
+  body aside .sidebar {
+    background-color: transparent;
+    height: auto;
+  }
+}
+
 body aside .sidebar a {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -427,6 +434,18 @@ body main .orders table td {
   height: 2.8rem;
   border-bottom: 1px solid rgba(132, 139, 200, 0.18);
   color: #677483;
+}
+
+@media screen and (max-width: 1200px) {
+  body main .orders table tbody td:first-child, body main .orders table tbody :last-child {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  body main .orders table thead th:first-child {
+    display: none;
+  }
 }
 
 body main .orders table tr:last-child td {
