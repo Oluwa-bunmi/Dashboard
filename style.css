@@ -313,6 +313,7 @@ body main {
 @media screen and (max-width: 768px) {
   body main {
     margin-top: 8rem;
+    padding: 0 1rem;
   }
 }
 
@@ -471,6 +472,14 @@ body main .orders {
   }
 }
 
+@media screen and (max-width: 768px) {
+  body main .orders {
+    position: relative;
+    margin: 3rem 0 0 0;
+    width: 100%;
+  }
+}
+
 body main .orders h2 {
   margin-bottom: 0.8rem;
 }
@@ -490,6 +499,13 @@ body main .orders table {
 @media screen and (max-width: 1200px) {
   body main .orders table {
     width: 84vw;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  body main .orders table {
+    width: 100%;
+    margin: 0;
   }
 }
 
@@ -529,6 +545,13 @@ body main .orders a {
 
 body .end {
   margin-top: 1.4rem;
+}
+
+@media screen and (max-width: 768px) {
+  body .end {
+    width: 94%;
+    margin: 0 auto 4rem;
+  }
 }
 
 body .end .top {

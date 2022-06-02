@@ -228,6 +228,7 @@ width: 100%;
     margin-top: 1.4rem;
        @media screen and (max-width:768px){
            margin-top: 8rem;
+           padding: 0 1rem;
        }
     .date {
       background-color: $colorLight;
@@ -346,6 +347,11 @@ width: 100%;
            transform: translateX(-50%);
            margin: 2rem 0 0 8.8rem;
        }
+          @media screen and (max-width:768px){
+              position: relative;
+              margin: 3rem 0 0 0;
+              width: 100%;
+          }
       h2 {
         margin-bottom: 0.8rem;
       }
@@ -360,6 +366,10 @@ width: 100%;
          @media screen and (max-width:1200px){
              width: 84vw;
          }
+            @media screen and (max-width:768px){
+                width: 100%;
+                margin: 0;
+            }
 
         td {
           height: 2.8rem;
@@ -402,10 +412,17 @@ width: 100%;
   }
   .end{
       margin-top: 1.4rem;
+         @media screen and (max-width:768px){
+             width: 94%;
+             margin: 0 auto 4rem;
+         }
       .top{
           display: flex;
           justify-content: end;
           gap: 2rem;
+             @media screen and (max-width:768px){
+                 
+             }
          
           button{
               display: none;
