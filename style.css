@@ -520,7 +520,8 @@ body main .orders table td {
 }
 
 @media screen and (max-width: 1200px) {
-  body main .orders table tbody td:first-child, body main .orders table tbody :last-child {
+  body main .orders table tbody td:first-child,
+  body main .orders table tbody :last-child {
     display: none;
   }
 }

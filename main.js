@@ -7,3 +7,8 @@ document.getElementById("menu").addEventListener("click", ()=>{
 document.getElementById("closebtn").addEventListener("click", ()=> {
     side.style.display = "none";
 });
+
+const theme = document.querySelector(".toggler");
+theme.addEventListener("click", ()=>{
+    document.body.classList.toggle("themeVariables");
+})
