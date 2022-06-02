@@ -103,7 +103,7 @@ body {
     @media screen and (max-width: 768px) {
       position: fixed;
       left: -100%;
-      background-color: #fff;
+      background-color: $white;
       width: 18rem;
       z-index: 3;
       box-shadow: 1rem 3rem 4rem $colorLight;
@@ -256,7 +256,7 @@ body {
         gap: 0;
       }
       > div {
-        background-color: #fff;
+        background-color: $white;
         padding: $cardPadding;
         border-radius: $cardBorderRadius;
         margin-top: 1rem;
@@ -361,7 +361,7 @@ body {
         margin-bottom: 0.8rem;
       }
       table {
-        background-color: #fff;
+        background-color: $white;
         width: 100%;
         border-radius: $cardBorderRadius;
         padding: $cardPadding;
@@ -435,7 +435,7 @@ body {
         margin: 0;
         z-index: 2;
         box-shadow: 0 1rem 1rem $colorLight;
-        background-color: #fff;
+        background-color: $white;
       }
 
       button {

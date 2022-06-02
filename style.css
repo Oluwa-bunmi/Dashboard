@@ -128,7 +128,7 @@ body aside {
   body aside {
     position: fixed;
     left: -100%;
-    background-color: #fff;
+    background-color: #202528;
     width: 18rem;
     z-index: 3;
     -webkit-box-shadow: 1rem 3rem 4rem rgba(0, 0, 0, 0.4);
@@ -352,7 +352,7 @@ body main .insights {
 }
 
 body main .insights > div {
-  background-color: #fff;
+  background-color: #202528;
   padding: 1.8rem;
   border-radius: 2rem;
   margin-top: 1rem;
@@ -489,7 +489,7 @@ body main .orders h2 {
 }
 
 body main .orders table {
-  background-color: #fff;
+  background-color: #202528;
   width: 100%;
   border-radius: 2rem;
   padding: 1.8rem;
@@ -584,7 +584,7 @@ body .end .top {
     z-index: 2;
     -webkit-box-shadow: 0 1rem 1rem rgba(0, 0, 0, 0.4);
             box-shadow: 0 1rem 1rem rgba(0, 0, 0, 0.4);
-    background-color: #fff;
+    background-color: #202528;
   }
 }
 
