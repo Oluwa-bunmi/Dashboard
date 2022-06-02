@@ -133,6 +133,7 @@ body aside {
             box-shadow: 1rem 3rem 4rem rgba(132, 139, 200, 0.18);
     height: 100vh;
     padding: 1.8rem;
+    display: none;
   }
 }
 
@@ -279,13 +280,6 @@ body aside .sidebar a:last-child {
   }
 }
 
-@media screen and (max-width: 768px) {
-  body aside .sidebar a:last-child {
-    position: absolute;
-    bottom: 5rem;
-  }
-}
-
 body aside .sidebar a.active {
   background-color: rgba(132, 139, 200, 0.18);
   color: #7380ec;
@@ -314,6 +308,12 @@ body aside .sidebar .msgcount {
 
 body main {
   margin-top: 1.4rem;
+}
+
+@media screen and (max-width: 768px) {
+  body main {
+    margin-top: 8rem;
+  }
 }
 
 body main .date {
