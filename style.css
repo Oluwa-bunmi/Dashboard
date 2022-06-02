@@ -31,6 +31,14 @@ body .container {
   gap: 1.8rem;
 }
 
+@media screen and (max-width: 1200px) {
+  body .container {
+    width: 94%;
+    -ms-grid-columns: 7rem auto 20rem;
+        grid-template-columns: 7rem auto 20rem;
+  }
+}
+
 body a {
   color: #363949;
 }
@@ -105,7 +113,6 @@ body aside {
 }
 
 body aside .topbar {
-  background-color: #fff;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -123,6 +130,12 @@ body aside .topbar div:first-child {
   display: -ms-flexbox;
   display: flex;
   gap: 0.8rem;
+}
+
+@media screen and (max-width: 1200px) {
+  body aside .topbar div:first-child h2 {
+    display: none;
+  }
 }
 
 body aside .topbar div:nth-child(2) {
@@ -159,14 +172,27 @@ body aside .sidebar a {
           align-items: center;
   height: 3.7rem;
   margin-left: 2rem;
+  position: relative;
   -webkit-transition: all 300ms ease;
   transition: all 300ms ease;
+}
+
+@media screen and (max-width: 1200px) {
+  body aside .sidebar a {
+    width: 5.6rem;
+  }
 }
 
 body aside .sidebar a span {
   font-size: 1.6rem;
   -webkit-transition: all 300ms ease;
   transition: all 300ms ease;
+}
+
+@media screen and (max-width: 1200px) {
+  body aside .sidebar a h3 {
+    display: none;
+  }
 }
 
 body aside .sidebar a:hover {
@@ -181,6 +207,13 @@ body aside .sidebar a:last-child {
   position: absolute;
   bottom: 2rem;
   width: 100%;
+}
+
+@media screen and (max-width: 1200px) {
+  body aside .sidebar a:last-child {
+    position: relative;
+    margin-top: 1.8rem;
+  }
 }
 
 body aside .sidebar a.active {
@@ -233,6 +266,14 @@ body main .insights {
   -ms-grid-columns: (1fr)[3];
       grid-template-columns: repeat(3, 1fr);
   gap: 1.6rem;
+}
+
+@media screen and (max-width: 1200px) {
+  body main .insights {
+    -ms-grid-columns: 1fr;
+        grid-template-columns: 1fr;
+    gap: 0;
+  }
 }
 
 body main .insights > div {
@@ -349,6 +390,17 @@ body main .orders {
   margin-top: 2rem;
 }
 
+@media screen and (max-width: 1200px) {
+  body main .orders {
+    width: 94%;
+    position: absolute;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+            transform: translateX(-50%);
+    margin: 2rem 0 0 8.8rem;
+  }
+}
+
 body main .orders h2 {
   margin-bottom: 0.8rem;
 }
@@ -363,6 +415,12 @@ body main .orders table {
           box-shadow: 0 2rem 3rem rgba(132, 139, 200, 0.18);
   -webkit-transition: all 300ms ease;
   transition: all 300ms ease;
+}
+
+@media screen and (max-width: 1200px) {
+  body main .orders table {
+    width: 84vw;
+  }
 }
 
 body main .orders table td {
