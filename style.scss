@@ -96,14 +96,15 @@ grid-template-columns: 1fr;
     @media screen and (max-width:768px){
 
         position: fixed;
-        left: 0;
+        left: -100%;
         background-color: #fff;
         width: 18rem;
         z-index: 3;
         box-shadow: 1rem 3rem 4rem $colorLight;
         height: 100vh;
-        padding: $cardPadding;
+        padding-right: $cardPadding;
         display: none;
+        animation: showMenu 400ms ease forwards;
     }
     .topbar {
      
@@ -111,9 +112,7 @@ grid-template-columns: 1fr;
       justify-content: space-between;
       align-items: center;
       margin-top: 1.4rem;
-       @media screen and (max-width:768px){
-           margin-top: 0;
-       }
+    
       div:first-child {
         display: flex;
         gap: 0.8rem;
@@ -579,5 +578,9 @@ grid-template-columns: 1fr;
       }
    
   }
-
+@keyframes showMenu {
+    to{
+        left: 0;
+    }
+}
 }

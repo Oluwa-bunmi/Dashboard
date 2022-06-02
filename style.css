@@ -127,15 +127,17 @@ body aside {
 @media screen and (max-width: 768px) {
   body aside {
     position: fixed;
-    left: 0;
+    left: -100%;
     background-color: #fff;
     width: 18rem;
     z-index: 3;
     -webkit-box-shadow: 1rem 3rem 4rem rgba(132, 139, 200, 0.18);
             box-shadow: 1rem 3rem 4rem rgba(132, 139, 200, 0.18);
     height: 100vh;
-    padding: 1.8rem;
+    padding-right: 1.8rem;
     display: none;
+    -webkit-animation: showMenu 400ms ease forwards;
+            animation: showMenu 400ms ease forwards;
   }
 }
 
@@ -150,12 +152,6 @@ body aside .topbar {
       -ms-flex-align: center;
           align-items: center;
   margin-top: 1.4rem;
-}
-
-@media screen and (max-width: 768px) {
-  body aside .topbar {
-    margin-top: 0;
-  }
 }
 
 body aside .topbar div:first-child {
@@ -795,5 +791,17 @@ body .end .salesAnalytics .addproduct div {
 
 body .end .salesAnalytics .addproduct div h3 {
   font-weight: 600;
+}
+
+@-webkit-keyframes showMenu {
+  to {
+    left: 0;
+  }
+}
+
+@keyframes showMenu {
+  to {
+    left: 0;
+  }
 }
 /*# sourceMappingURL=style.css.map */
