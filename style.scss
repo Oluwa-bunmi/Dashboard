@@ -30,6 +30,9 @@ body {
         width: 94%;
         grid-template-columns: 7rem auto 20rem;
     }
+    @media screen and (max-width:768px){
+width: 100%;
+    }
   }
   a {
     color: $colorDark;
@@ -87,6 +90,17 @@ body {
 
   aside {
     height: 100vh;
+    @media screen and (max-width:768px){
+
+        position: fixed;
+        left: 0;
+        background-color: #fff;
+        width: 18rem;
+        z-index: 3;
+        box-shadow: 1rem 3rem 4rem $colorLight;
+        height: 100vh;
+        padding: $cardPadding;
+    }
     .topbar {
      
       display: flex;
@@ -100,6 +114,7 @@ body {
             @media screen and (max-width:1200px) {
                 display: none;
             }
+            
         }
       }
       div:nth-child(2) {

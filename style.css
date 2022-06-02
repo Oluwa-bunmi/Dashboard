@@ -39,6 +39,12 @@ body .container {
   }
 }
 
+@media screen and (max-width: 768px) {
+  body .container {
+    width: 100%;
+  }
+}
+
 body a {
   color: #363949;
 }
@@ -110,6 +116,20 @@ body b {
 
 body aside {
   height: 100vh;
+}
+
+@media screen and (max-width: 768px) {
+  body aside {
+    position: fixed;
+    left: 0;
+    background-color: #fff;
+    width: 18rem;
+    z-index: 3;
+    -webkit-box-shadow: 1rem 3rem 4rem rgba(132, 139, 200, 0.18);
+            box-shadow: 1rem 3rem 4rem rgba(132, 139, 200, 0.18);
+    height: 100vh;
+    padding: 1.8rem;
+  }
 }
 
 body aside .topbar {
