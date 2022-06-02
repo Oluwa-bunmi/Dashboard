@@ -586,6 +586,24 @@ body .end .top button {
   display: none;
 }
 
+@media screen and (max-width: 768px) {
+  body .end .top button {
+    display: inline-block;
+    background: transparent;
+    border: none;
+    color: #363949;
+    cursor: pointer;
+    position: absolute;
+    left: 1rem;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  body .end .top button span {
+    font-size: 2rem;
+  }
+}
+
 body .end .top .toggler {
   background-color: rgba(132, 139, 200, 0.18);
   display: -webkit-box;
