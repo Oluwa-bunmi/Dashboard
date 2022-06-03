@@ -44,6 +44,12 @@
           box-shadow: 0 2rem 3rem rgba(0, 0, 0, 0.4);
 }
 
+@media screen and (max-width: 768px) {
+  .themeVariables .end .top {
+    background-color: #202528;
+  }
+}
+
 html {
   font-size: 14px;
 }
