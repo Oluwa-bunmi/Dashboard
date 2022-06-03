@@ -584,6 +584,10 @@ body {
           }
         }
       }
+      .addproduct:hover{
+          background-color: $colorPrimary;
+          color: $white;
+      }
     }
   }
   @keyframes showMenu {

@@ -18,3 +18,7 @@ themeToggler.addEventListener("click", () => {
 
 
 // Fill orders in table
+Orders.forEach(order => {
+    const tr = document.createElement("tr");
+    // const trContent = 
+})
