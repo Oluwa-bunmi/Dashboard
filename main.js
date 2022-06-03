@@ -19,6 +19,16 @@ themeToggler.addEventListener("click", () => {
 
 // Fill orders in table
 Orders.forEach(order => {
-    const tr = document.createElement("tr");
-    // const trContent = 
+    const tr = document.createElement('tr');
+    const trContent = `
+    
+                            <td>${order.productName}</td>
+                            <td>${order.productNumber}</td>
+                            <td>${order.paymentStatus}</td>
+                            <td class="warning">${order.shipping}</td>
+                            <td class="primary">Details</td>
+                            `;
+                             
+    tr.innerHTML = trContent;
+    document.querySelector("table tbody").appendChild(tr);                        
 })
