@@ -8,23 +8,8 @@
 }
 
 .themeVariables {
-  background-color: #181a1e;
-}
-
-.themeVariables p {
-  color: #a3bdcc;
-}
-
-.themeVariables .sidebar {
-  background-color: #202528;
-}
-
-.themeVariables table {
-  background-color: #202528;
-}
-
-.themeVariables .insights > div {
-  background-color: #202528;
+  background-color: black;
+  color: #fff;
 }
 
 html {
