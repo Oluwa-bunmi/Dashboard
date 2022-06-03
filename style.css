@@ -50,6 +50,14 @@
   }
 }
 
+.themeVariables .end .notifications {
+  background-color: #202528 !important;
+}
+
+.themeVariables .end .notifications b {
+  color: #edeffd;
+}
+
 html {
   font-size: 14px;
 }
