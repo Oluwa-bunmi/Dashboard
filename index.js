@@ -24,6 +24,7 @@ themeToggler.addEventListener("click", () => {
 
 
 // Fill orders in table
+
 Orders.forEach(order => {
     const tr = document.createElement('tr');
     const trContent = `
@@ -37,4 +38,4 @@ Orders.forEach(order => {
                              
     tr.innerHTML = trContent;
     document.querySelector('table tbody').appendChild(tr);                        
-})
+});
