@@ -58,6 +58,10 @@
   color: #edeffd;
 }
 
+.themeVariables .end .salesAnalytics > div {
+  background-color: #202528;
+}
+
 html {
   font-size: 14px;
 }
