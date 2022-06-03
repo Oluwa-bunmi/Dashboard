@@ -94,11 +94,11 @@ body .primary {
 }
 
 body .danger {
-  color: #ff7782;
+  color: #ff7782 !important;
 }
 
 body .success {
-  color: #41f1b6;
+  color: #41f1b6 !important;
 }
 
 body .profilepic {
