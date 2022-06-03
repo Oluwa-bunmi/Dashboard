@@ -15,3 +15,6 @@ themeToggler.addEventListener("click", () => {
   themeToggler.querySelector("span:nth-child(2)").classList.toggle("active");
 
 });
+
+
+// Fill orders in table
