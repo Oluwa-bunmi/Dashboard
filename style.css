@@ -8,8 +8,38 @@
 }
 
 .themeVariables {
-  background-color: black;
-  color: #fff;
+  background-color: #181a1e;
+  color: #edeffd;
+}
+
+.themeVariables p {
+  color: #a3bdcc;
+}
+
+.themeVariables .sidebar {
+  background-color: #202528;
+}
+
+.themeVariables table {
+  background-color: #202528;
+}
+
+.themeVariables main .date {
+  color: rgba(0, 0, 0, 0.4);
+}
+
+.themeVariables main .date input[type="date"] {
+  color: #edeffd;
+}
+
+.themeVariables main .insights > div {
+  background-color: #202528;
+  -webkit-box-shadow: 0 2rem 3rem rgba(132, 139, 200, 0.18);
+          box-shadow: 0 2rem 3rem rgba(132, 139, 200, 0.18);
+}
+
+.themeVariables main .insights > div span {
+  color: #202528;
 }
 
 html {

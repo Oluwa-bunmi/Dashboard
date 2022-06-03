@@ -8,33 +8,51 @@
   box-sizing: border-box;
 }
 
-.themeVariables {
-background-color: black;
-color: #fff;
-
-}
 // .themeVariables {
+// $background:$background;
+// $white: $white;
+// $colorDark:$colorDark;
+// $darkVariant:$darkVariant;
+// $colorLight:$colorLight;
+// $shadow:$shadow;
+
+// }
+.themeVariables {
 // $background:#181a1e; 1
 // $white: #202528; 
 // $colorDark:#edeffd;
 // $darkVariant:#a3bdcc;
 // $colorLight: rgba(0, 0, 0, 0.4);
 // $shadow: 0 2rem 3rem $colorLight;
-// background-color: #181a1e;
-// p{
-//     color: #a3bdcc;
-// }
-// .sidebar{
-//     background-color: #202528;
-// }
-// table{
-//     background-color: #202528;
-// }
-// .insights > div{
-//     background-color: #202528;
-// }
+background-color: #181a1e;
+color: #edeffd;
+p{
+    color: #a3bdcc;
+}
+.sidebar{
+    background-color: #202528;
+}
+table{
+    background-color: #202528;
+}
+main{
+    .date{
+        color:  rgba(0, 0, 0, 0.4);
+         input[type="date"]{
+             color: #edeffd;
+         }
+    }
 
-// }
+    .insights > div{
+        background-color: #202528;
+        box-shadow:  0 2rem 3rem $colorLight;
+        span{
+            color: #202528;
+        }
+    }
+}
+
+}
 html {
   font-size: 14px;
 }
@@ -283,7 +301,7 @@ body {
         transition: all 300ms ease;
         span {
           font-size: 2rem;
-          color: #fff;
+          color: $white;
 
           padding: 0.5rem;
           border-radius: 50%;
