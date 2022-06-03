@@ -8,7 +8,7 @@ document.getElementById("closebtn").addEventListener("click", () => {
 });
 
 /* ------theme ------ */
-let theme = document.querySelector(".toggler");
-theme.addEventListener("click", () => {
+let themeToggler = document.querySelector(".toggler");
+themeToggler.addEventListener("click", () => {
   document.body.classList.toggle("themeVariables");
 });
