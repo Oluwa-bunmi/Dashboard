@@ -18,6 +18,7 @@
 // $shadow: 0 2rem 3rem $colorLight;
 background-color: #181a1e;
 color: #edeffd;
+
 p{
     color: #a3bdcc;
 }
@@ -51,7 +52,7 @@ table:hover{
 .end{
     .top{
          @media screen and (max-width: 768px){
-
+ box-shadow: 0 2rem 3rem rgba(0, 0, 0, 0.4);
              background-color: #202528;
          }
     }
