@@ -51,18 +51,25 @@
 
 @media screen and (max-width: 768px) {
   .themeVariables .end .top {
+    background-color: #202528;
     -webkit-box-shadow: 0 2rem 3rem rgba(0, 0, 0, 0.4);
             box-shadow: 0 2rem 3rem rgba(0, 0, 0, 0.4);
-    background-color: #202528;
   }
 }
 
 .themeVariables .end .notifications {
   background-color: #202528 !important;
+  -webkit-box-shadow: 0 2rem 3rem rgba(0, 0, 0, 0.4) !important;
+          box-shadow: 0 2rem 3rem rgba(0, 0, 0, 0.4) !important;
 }
 
 .themeVariables .end .notifications b {
   color: #edeffd;
+}
+
+.themeVariables .end .notifications:hover {
+  -webkit-box-shadow: none !important;
+          box-shadow: none !important;
 }
 
 .themeVariables .end .salesAnalytics > div {
