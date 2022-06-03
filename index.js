@@ -7,7 +7,7 @@ document.getElementById("closebtn").addEventListener("click", () => {
   side.style.display = "none";
 });
 
-/* ------theme ------ */
+/* ------theme toggler for light and dark mode ------ */
 let themeToggler = document.querySelector(".toggler");
 themeToggler.addEventListener("click", () => {
   document.body.classList.toggle("themeVariables");
@@ -15,6 +15,12 @@ themeToggler.addEventListener("click", () => {
   themeToggler.querySelector("span:nth-child(2)").classList.toggle("active");
 
 });
+
+
+
+
+
+
 
 
 // Fill orders in table
@@ -30,5 +36,5 @@ Orders.forEach(order => {
                             `;
                              
     tr.innerHTML = trContent;
-    document.querySelector("table tbody").appendChild(tr);                        
+    document.querySelector('table tbody').appendChild(tr);                        
 })
