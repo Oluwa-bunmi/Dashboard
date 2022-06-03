@@ -8,24 +8,12 @@ document.getElementById("closebtn").addEventListener("click", () => {
 });
 
 /* ------theme toggler for light and dark mode ------ */
-// let themeToggler = document.querySelector(".toggler");
-// themeToggler.addEventListener("click", () => {
-//   document.body.classList.toggle("themeVariables");
-//   themeToggler.querySelector("span:nth-child(1)").classList.toggle("active");
-//   themeToggler.querySelector("span:nth-child(2)").classList.toggle("active");
-// });
-let moon = document.getElementById("moon");
-function themefunction(){
-  
-}
-
-
-
-
-
-
-
-
+let themeToggler = document.querySelector(".toggler");
+themeToggler.addEventListener("click", () => {
+  document.body.classList.toggle("themeVariables");
+  themeToggler.querySelector("span:nth-child(1)").classList.toggle("active");
+  themeToggler.querySelector("span:nth-child(2)").classList.toggle("active");
+});
 
 // Fill orders in table
 

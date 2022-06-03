@@ -1,10 +1,5 @@
 @import "./variables";
-// $background:#181a1e;
-// $white: #202528;
-// $colorDark:#edeffd;
-// $darkVariant:#a3bdcc;
-// $colorLight: rgba(0, 0, 0, 0.4);
-// $shadow: 0 2rem 3rem $colorLight;
+
 * {
   padding: 0;
   margin: 0;
@@ -12,17 +7,30 @@
   outline: none;
   box-sizing: border-box;
 }
-// .themeVariables {
 
+// .themeVariables {
+// $background:$background;
+// $white: $white;
+// $colorDark:$colorDark;
+// $darkVariant:$darkVariant;
+// $colorLight:$colorLight;
+// $shadow:$shadow;
 
 // }
 .themeVariables {
-$background:$background;
-$white: $white;
-$colorDark:$colorDark;
-$darkVariant:$darkVariant;
-$colorLight:$colorLight;
-$shadow:$shadow;
+// $background:#181a1e;
+// $white: #202528;
+// $colorDark:#edeffd;
+// $darkVariant:#a3bdcc;
+// $colorLight: rgba(0, 0, 0, 0.4);
+// $shadow: 0 2rem 3rem $colorLight;
+background-color: #181a1e;
+p{
+    color: #a3bdcc;
+}
+.sidebar{
+    background-color: #202528;
+}
 
 }
 html {
