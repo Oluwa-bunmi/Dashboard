@@ -18,8 +18,8 @@
 
 // }
 .themeVariables {
-// $background:#181a1e;
-// $white: #202528;
+// $background:#181a1e; 1
+// $white: #202528; 
 // $colorDark:#edeffd;
 // $darkVariant:#a3bdcc;
 // $colorLight: rgba(0, 0, 0, 0.4);
@@ -29,6 +29,12 @@ p{
     color: #a3bdcc;
 }
 .sidebar{
+    background-color: #202528;
+}
+table{
+    background-color: #202528;
+}
+.insights > div{
     background-color: #202528;
 }
 

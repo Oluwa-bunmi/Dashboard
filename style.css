@@ -19,6 +19,14 @@
   background-color: #202528;
 }
 
+.themeVariables table {
+  background-color: #202528;
+}
+
+.themeVariables .insights > div {
+  background-color: #202528;
+}
+
 html {
   font-size: 14px;
 }
