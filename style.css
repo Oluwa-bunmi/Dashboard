@@ -60,6 +60,12 @@
 
 .themeVariables .end .salesAnalytics > div {
   background-color: #202528;
+  -webkit-box-shadow: 0 2rem 3rem rgba(0, 0, 0, 0.4);
+          box-shadow: 0 2rem 3rem rgba(0, 0, 0, 0.4);
+}
+
+.themeVariables .end .salesAnalytics > div .icon {
+  color: #202528;
 }
 
 html {
