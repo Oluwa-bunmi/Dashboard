@@ -30,8 +30,8 @@
 
 .themeVariables main .insights > div {
   background-color: #202528;
-  -webkit-box-shadow: 0 2rem 3rem rgba(132, 139, 200, 0.18);
-          box-shadow: 0 2rem 3rem rgba(132, 139, 200, 0.18);
+  -webkit-box-shadow: 0 2rem 3rem rgba(0, 0, 0, 0.4);
+          box-shadow: 0 2rem 3rem rgba(0, 0, 0, 0.4);
 }
 
 .themeVariables main .insights > div span {
@@ -40,8 +40,13 @@
 
 .themeVariables main table {
   background-color: #202528 !important;
-  -webkit-box-shadow: 0 2rem 3rem rgba(0, 0, 0, 0.4);
-          box-shadow: 0 2rem 3rem rgba(0, 0, 0, 0.4);
+  -webkit-box-shadow: 0 2rem 3rem rgba(0, 0, 0, 0.4) !important;
+          box-shadow: 0 2rem 3rem rgba(0, 0, 0, 0.4) !important;
+}
+
+.themeVariables main table:hover {
+  -webkit-box-shadow: none !important;
+          box-shadow: none !important;
 }
 
 @media screen and (max-width: 768px) {

@@ -8,15 +8,7 @@
   box-sizing: border-box;
 }
 
-// .themeVariables {
-// $background:$background;
-// $white: $white;
-// $colorDark:$colorDark;
-// $darkVariant:$darkVariant;
-// $colorLight:$colorLight;
-// $shadow:$shadow;
 
-// }
 .themeVariables {
 // $background:#181a1e; 1
 // $white: #202528; 
@@ -43,14 +35,17 @@ main{
 
     .insights > div{
         background-color: #202528;
-        box-shadow:  0 2rem 3rem $colorLight;
+        box-shadow:  0 2rem 3rem  rgba(0, 0, 0, 0.4);
         span{
             color: #202528;
         }
     }
     table{
     background-color: #202528 !important;
-    box-shadow: 0 2rem 3rem rgba(0, 0, 0, 0.4);
+    box-shadow: 0 2rem 3rem rgba(0, 0, 0, 0.4) !important;
+}
+table:hover{
+    box-shadow: none !important;
 }
 }
 .end{
