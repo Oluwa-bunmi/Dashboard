@@ -68,6 +68,10 @@
   color: #202528;
 }
 
+.themeVariables .end .addproduct:hover {
+  color: #202528 !important;
+}
+
 html {
   font-size: 14px;
 }
