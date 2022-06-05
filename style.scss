@@ -17,8 +17,13 @@ color: #edeffd;
 p{
     color: #a3bdcc;
 }
-.sidebar{
-    background-color: #202528;
+aside{
+     @media screen and (max-width: 768px){
+         background-color: #202528;
+     }
+     .sidebar{
+         background-color: #202528;
+     }
 }
 
 main{
