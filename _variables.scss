@@ -15,22 +15,4 @@ $cardPadding: 1.8rem;
 $white: #fff;  
 
 
-/*
- $background:#181a1e;
- $white: #202528;
- $colorDark:#edeffd;
- $darkVariant:#a3bdcc;
- $colorLight: rgba(0, 0, 0, 0.4);
- $shadow: 0 2rem 3rem $colorLight;
 
- Leaving this in the variables.scss and putting this 
- .themeVariabes{
-   $background:$background;
-    $white: $white;
-    $darkVariant: $darkVariant;
-    $colorLight: $colorLight;
-     $shadow:  $shadow;
- }
- 
- in the main sass file will toggle the class only once hence not returning
- to light mode. Hoping to find a solution to this someday */
